@@ -46,9 +46,23 @@ html,body{
 	position: absolute;
 	top: 45%;
 	left: 5%;
+	align-items: center;
+
 
 	/*Cor*/
 	border-radius: 2px;
 	padding: 8px;
 	background-color: #FFE919;
+}
+
+
+#center{
+	align-items: center;
+	text-align: center;
+	padding-top: 10%;
+}
+
+#center-text{
+	text-align: center;
+	padding: 0% 25%;
 }
