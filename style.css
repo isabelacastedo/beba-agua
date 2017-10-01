@@ -1,65 +1,54 @@
-.teste {
-	position: relative;
+*{
+ margin: 0px;
+ padding:0px;
+ border: 0px; 
+ max-width: 100%;
+ max-height: 100%;
 }
 
-.section {
-    /* the important one*/
-    background-attachment: fixed; 
- 
-    background-size: auto 80%;
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
+
+
+html,body{
+ max-width: 100%;
+ max-height: 100%;
 }
 
-#section1 {
-    background-color: #ccffff;
+.vh-100{
+	height: 100vh;
 }
 
-#section2 {
-    background-color: #66ffff;
+.image{
+	width: 60%;
+	height: 60%;
+	position: absolute;
+	top: 20%;
+	left:20%;
 }
 
-#section3 {
-    background-color: #00e6e6;
+.titulo{
+	position: absolute;
+	top:20%;
+	left:5%;
 }
+	.texto{
+	position: absolute;
+	top: 35%;
+	left: 5%;
+	}
+	
 
-#section4 {
-	background-color: #008080;
-}
 
-/* Styling titles and text for the sections with backgrounds*/
-.intro {
-    position: absolute;
-    bottom: 100px;
-    text-align: center;
-    width: 100%;
-}
-.intro h1 {
-    font-size: 5em;
-    font-weight: bold;
-    color: #000;
-}
- 
-/* Styling our last section, our content */
-#section4 .intro {
-    color: #000;
-}
-.page {
-    width: 80%;
-    margin: 60px auto;
-    background:white;
-    padding: 60px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.page p {
-    font-style: 12px;
-    margin: 20px 0 0 0;
-    line-height: 1.35em;
-    color: #333;
-}
+.cta{
 
-.content {
-	text-align: center;
+	/*Tamanho e Posição na página */
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 45%;
+	left: 5%;
+
+	/*Cor*/
+	border-radius: 2px;
+	padding: 8px;
+	background-color: #FFE919;
 }
